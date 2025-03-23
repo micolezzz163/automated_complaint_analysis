@@ -1,0 +1,15 @@
+tasks:
+  Process Complaints:
+    shell: python -m robocorp.tasks run tasks/process_complaints.py
+
+  Run Test With Mock Data:
+    shell: python -m robocorp.tasks run tasks/test_with_mock_data.py
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+ignoreFiles:
+  - .gitignore
+PATH:
+  - .
+PYTHONPATH:
+  - . 
