@@ -63,7 +63,7 @@
 
 1. 克隆仓库：
    ```
-   git clone [仓库URL]
+   git clone https://github.com/micolezzz163/automated_complaint_analysis.git
    cd automated_complaint_analysis
    ```
 
